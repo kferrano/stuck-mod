@@ -1,0 +1,11 @@
+{
+  "stuck.error.player_only": "Nur Spieler können diesen Befehl nutzen.",
+  "stuck.error.perm": "Du hast keine Berechtigung, /stuck zu verwenden.",
+  "stuck.error.cooldown": "Cooldown: bitte warte noch %s Sekunden.",
+  "stuck.error.mode_once": "Du hast /stuck in diesem Leben bereits verwendet.",
+  "stuck.error.not_stuck": "Du bist nicht wirklich feststeckend!",
+  "stuck.error.dimension": "/stuck ist in dieser Dimension deaktiviert.",
+  "stuck.error.gamemode": "/stuck ist in diesem Spielmodus nicht erlaubt.",
+  "stuck.error.no_safe": "Kein sicherer Ort in Reichweite gefunden!",
+  "stuck.success": "Du wurdest befreit!"
+}
