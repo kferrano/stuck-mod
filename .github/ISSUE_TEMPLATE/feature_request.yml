@@ -1,0 +1,57 @@
+name: "✨ Feature request"
+description: "Suggest a new idea or improvement for Stuck Mod"
+title: "[Feature]: "
+labels: [enhancement]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Please fill out the details below.
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      description: Which version of Stuck Mod are you using?
+      placeholder: "e.g., 1.0.0 (MC 1.20.1)"
+    validations:
+      required: true
+
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft version
+      placeholder: "e.g., 1.20.1 or 1.18.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of what the problem is. Ex. "I'm always frustrated when..."
+      placeholder: "I'm often stuck in certain claim types where /stuck doesn't help..."
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: How should the feature work? Be as detailed as possible.
+      placeholder: "Add a config option that allows teleporting sideways if upwards is blocked."
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: Did you try something else to solve the problem? Mention it here.
+      placeholder: "I tried using another mod but it didn't fit well..."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any screenshots, configs, or other context about the feature request here.
