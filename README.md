@@ -25,4 +25,5 @@ The config file (`stuckmod.toml`) lets you adjust:
 - Enable/disable debug logging
 
 ## License
-MIT
+All Rights Reserved
+
